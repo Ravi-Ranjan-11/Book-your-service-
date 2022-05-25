@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    /* overflow-x: hidden; */
+}
+
+li, a, button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.08em;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 4%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+/* Second section */
+
+.div1 {
+    background:url(images/AC.png); 
+    background-size: 963px 736px;
+    /* width: 963px; 
+    height: 736px; */
+    float: left;
+    background-size: cover;
+  /* width: 759px;
+  height: 635px; */
+  width: 759px;
+  height: 581px;
+
+  max-width: 50%;
+
+
+
+  /* border: 2px solid; */
+  /* color: pink; */
+  /* resize: both;
+  overflow: scroll; */
+}
+
+.div2 {
+    width: 957px; 
+    height: 581px;
+
+    max-width: 50%;
+    float: right; 
+}
+
+.AC-text {
+    text-align: center;
+    padding-left: 200;
+    padding-top: 110;
+    width: 500;
+    height: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-style: normal;
+    font-weight: 700; */
+    color: #FFFFFF;
+}
+
+/* What are you looking for */
+
+.grp1 {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.grp2 {
+    list-style: none;
+    display: flex;
+}
+
+.item{
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+  }
+
+  /* trending */
+
+.trending {
+    padding-top: 79px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  
+}
+
+
+.trending-img {
+    padding-top: 37px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trending-img {
+    /* padding-top: 37px; */
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.img1 {
+    display: block;
+    margin: 0 auto;
+}
+
+img.img2 {
+    /* display: block; */
+    position:absolute;
+    width: auto;
+    height: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+img.img3 {
+    padding-left: 77px;
+    max-width: 1498px;
+    margin: 0 auto;
+}
+
+.Home-services {
+    width: 1482.76px;
+    height: 329.43px;
+}
+
+.services1 {
+    width: 1500px;
+}
